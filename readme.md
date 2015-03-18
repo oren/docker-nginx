@@ -6,6 +6,5 @@ Website served by Nginx inside Docker container
 
 ## Setup
 
-    docker build -t nginx .
-    docker run --name nginx -d -p 3000:80 -v $(pwd)/website:/usr/share/nginx/html nginx
+    fig up
     open http://localhost:3000
